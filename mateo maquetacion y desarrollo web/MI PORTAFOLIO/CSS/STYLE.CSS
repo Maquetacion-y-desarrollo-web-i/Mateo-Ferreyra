@@ -1,0 +1,35 @@
+#BarraNavegacion {
+    background-color: #333;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    width: 100%;
+    margin: 0 auto;
+    /* Usamos flexbox para alinear el título a la izquierda y botones a la derecha */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+}
+
+#Botonesdenavegacion {
+    text-align: right;
+}
+
+/* IMPORTANTE: Estilos aplicados directamente a los enlaces <a> */
+#Botonesdenavegacion a {
+    color: white;                  /* Color del texto */
+    text-decoration: none;         /* Quita el subrayado azul */
+    margin-left: 15px;             /* Espacio entre cada botón */
+    font-weight: bold;
+}
+
+/* Efecto al pasar el cursor sobre los botones */
+#Botonesdenavegacion a:hover {
+    color: #00bcd4;                /* Cambia de color al pasar el mouse */
+}
